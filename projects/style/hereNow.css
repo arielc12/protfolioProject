@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+}
+
+.titles {
+    text-align: center;
+}
+
+.titles>h1 {
+    font: normal normal normal 160px/231px Satisfy;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 36px #00000087;
+    opacity: 1;
+}
+
+.titles>h2 {
+    font: normal normal normal 32px/38px Varela Round;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: 1.3rem;
+}
+
+.titles>p {
+    font: normal normal normal 16px/20px Varela Round;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+    line-height: 2;
+
+}
+
+.form>form {
+    display: flex;
+    margin-top: 1.3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.formControl {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.3rem;
+}
+
+.formControl>label {
+    font: normal normal normal 16px/20px Varela Round;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+}
+
+.formControl>input {
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+    width: 418px;
+    height: 50px;
+}
+
+.formControlBtn>input {
+    width: 206px;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    font: normal normal normal 16px/20px Varela Round;
+    letter-spacing: 0px;
+    color: #1C1C1C;
+    border: none;
+    margin-top: 1.3rem;
+
+}
+
+@media (max-width: 768px) {
+    .titles {
+        width: 80vw;
+    }
+
+    .form>form {
+        width: 80vw;
+        flex-direction: column;
+    }
+
+    .formControl {
+        margin-top: 1.3rem;
+    }
+
+    .titles>h1 {
+        font: normal normal normal 60px/86px Satisfy;
+    }
+
+    .titles>h2 {
+        font: normal normal normal 18px/22px Varela Round;
+    }
+
+    .titles>p {
+        font: normal normal normal 16px/20px Varela Round;
+    }
+}
